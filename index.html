@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <h2>Kwan Chun Kit Robinson</h1>
+    <h2> Email: kck980724@gmail.com</h2>
+    <h2> Phone no.: +852 60282297</h2>
+</header>
+<nav>
+    <ul>
+        <li><a href="index.html" class="home-button">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Project Details</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#recommendations">Recommendations</a></li>
+    </ul>
+</nav>
+<section id="about">
+    <img src="profile.jpg" alt="Profile Picture">
+    <h2>Kwan Chun Kit Robinson</h2><br>
+    <p>Hello! I'm Robinson Kwan, a passionate and creative professional specializing in IT, based in Hong Kong. With a background in PolyU Fintech. My journey in IT began with University, and since then, I've been committed to delivering high-quality work that empowers and inspires.
+
+        I thrive on challenges and consistently strive to expand my skillset and stay updated with the latest trends in [your field]. Whether working on independent projects or as part of a dynamic team, I always aim to bring a unique perspective and an innovative approach. Outside of professional interests, I enjoy gym & music, which keep me balanced and inspired.
+        
+        Thank you for visiting my portfolio. I look forward to the opportunity to collaborate and create something exceptional together.</p>
+
+</section>
+<section id="skills">
+    <div>
+        <img src="skill1.png" alt="Skill Logo">
+        <p>HTML</p>
+    </div>
+    <div>
+        <img src="skill2.png" alt="Skill Logo">
+        <p>JavaScript</p>
+    </div>
+    <div>
+        <img src="skill3.png" alt="Skill Logo">
+        <p>Java</p>
+    </div>
+    <div>
+        <img src="skill4.png" alt="Skill Logo">
+        <p>React</p>
+    </div>
+    <div>
+        <img src="skill5.png" alt="Skill Logo">
+        <p>Node.js</p>
+    </div>
+    <div>
+        <img src="skill6.png" alt="Skill Logo">
+        <p>CSS</p>
+    </div>
+</section>
+<section id="projects">
+    <div>
+        <h3>Chatbot</h3>
+        <p>Developed a secure website integrated with chatbot for an automobile client using HTML, CSS, JavaScript and IBM Watson Assistant</p>
+    </div>
+    <div>
+        <h3>Setiment Analyzer</h3>
+        <p>Developed and deployed a sentiment analyzer for the box reviews section of anteCommerce platform using IBM NLU</p>
+    </div>
+    <div>
+        <h3>Fashion Website</h3>
+        <P>Created a styled muti-page website for a new player in the fashion indestry and integrated it with a shopping cart, using stripe for payment gateway</P>
+    </div>
+</section>
+<section id="recommendations">
+    <div>
+        <p>Recommendation 1</p>
+    </div>
+    <div>
+        <p>Recommendation 2</p>
+    </div>
+    <form onsubmit="addRecommendation(); return false;">
+        <input type="text" id="newRecommendation" placeholder="Add Recommendation">
+        <button type="submit">Submit</button>
+    </form>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
